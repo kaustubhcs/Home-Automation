@@ -1,3 +1,9 @@
+/*
+This code is to be uploaded to the Master Controller
+Arduino, the one which shall be connected to the User
+Interface
+*/
+
 #include <SoftwareSerial.h>
 #include <LiquidCrystal.h>
 
