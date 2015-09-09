@@ -25,7 +25,7 @@
 
 #define mosquito_light table_plug_1
 
-//#define
+//#defines
 
 #define buzzer 35
 #define passage_door_open_led 23
