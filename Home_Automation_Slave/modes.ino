@@ -48,6 +48,9 @@ void eve_mode()
 
 }
 
+
+// Lighting Switches control
+
 void night_mode()
 {
   door_check_secure3();
