@@ -1,15 +1,15 @@
 #include <SoftwareSerial.h>
 
-#define relay_0 2 
+#define relay_0 2
 #define relay_1 3
-#define relay_2 11 
-#define relay_3 6 
-#define relay_4 4 
+#define relay_2 11
+#define relay_3 6
+#define relay_4 4
 #define relay_5 45
 #define relay_6 47
 #define relay_7 52
 #define relay_8 51
-#define relay_9 53 
+#define relay_9 53
 #define relay_10 49
 
 #define cfl relay_0
@@ -81,7 +81,7 @@ void loop()
   digitalWrite(master_plug, HIGH);
   mode();
   bell_detect();
-  
+
   //  delay(1000);
 
 

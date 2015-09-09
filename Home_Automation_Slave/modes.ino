@@ -8,13 +8,13 @@ void day_mode()
 
   if ( motion() )
   {
-//    digitalWrite(master_plug, HIGH);
+    //    digitalWrite(master_plug, HIGH);
     fan_on(1);
     mosquito_repel();
   }
   else
   {
-//    digitalWrite(master_plug, LOW);
+    //    digitalWrite(master_plug, LOW);
     fan_on(0);
     digitalWrite(table_plug_2, LOW);
   }
@@ -31,7 +31,7 @@ void eve_mode()
   {
     digitalWrite(cfl, HIGH);
     digitalWrite(tubes, HIGH);
-//    digitalWrite(master_plug, HIGH);
+    //    digitalWrite(master_plug, HIGH);
     fan_on(1);
     mosquito_repel();
 
@@ -40,7 +40,7 @@ void eve_mode()
   {
     digitalWrite(cfl, LOW);
     digitalWrite(tubes, LOW);
-//    digitalWrite(master_plug, LOW);
+    //    digitalWrite(master_plug, LOW);
     fan_on(0);
     digitalWrite(table_plug_2, LOW);
 
@@ -66,7 +66,7 @@ void night_mode()
   else
   {
     digitalWrite(night_lamp, LOW);
-//    digitalWrite(master_plug, LOW);
+    //    digitalWrite(master_plug, LOW);
   }
 
 
@@ -104,7 +104,7 @@ void secured_mode()
   {
     digitalWrite(table_plug_2, LOW);
     digitalWrite(night_lamp, LOW);
-//    digitalWrite(master_plug, LOW);
+    //    digitalWrite(master_plug, LOW);
 
   }
 }

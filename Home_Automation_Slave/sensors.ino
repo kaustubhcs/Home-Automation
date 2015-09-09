@@ -244,13 +244,13 @@ int motion()
   timer = millis();
   adder = 3000;
   int pdo_flag = 0;
-  
+
   if (pdo() == 1)
   {
-   pdo_flag = 5; 
+    pdo_flag = 5;
   }
-  
-  if (pdo() == 1 || pdo_flag>0)
+
+  if (pdo() == 1 || pdo_flag > 0)
   {
     delay(1000);
     while (millis() < (timer + adder) )
@@ -295,7 +295,7 @@ int motion()
     if (pdo() == 1)
     {
       pdo_flag = 5;
-     return(1); 
+      return (1);
     }
     val_1 = analogRead(pir_1);
     val_2 = analogRead(pir_2);
