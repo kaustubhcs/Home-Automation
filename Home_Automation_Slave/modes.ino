@@ -153,6 +153,8 @@ void mode_declare ()
 
 }
 
+// Global Mode Declare
+
 void mode()
 {
   mode_declare();
