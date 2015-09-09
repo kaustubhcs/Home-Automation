@@ -77,7 +77,9 @@ int ldo() //Living Room Door Open
 }
 
 
-int gdo() //Gallery Door Open
+//Gallery Door Open
+
+int gdo() 
 {
   digitalWrite(gallery_door_open_led, LOW);
   analogWrite(gallery_door_open_ldr, 0);
