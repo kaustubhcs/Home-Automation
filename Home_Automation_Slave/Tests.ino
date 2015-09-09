@@ -130,7 +130,7 @@ void sensor_test_2()
   }
 }
 
-
+// Master Slave Communication Test
 void comm_test()
 {
   int i=10;
