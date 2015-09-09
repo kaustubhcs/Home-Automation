@@ -243,7 +243,14 @@ int motion()
 
   timer = millis();
   adder = 3000;
+  int pdo_flag = 0;
+  
   if (pdo() == 1)
+  {
+   pdo_flag = 5; 
+  }
+  
+  if (pdo() == 1 || pdo_flag>0)
   {
     delay(1000);
     while (millis() < (timer + adder) )
@@ -261,6 +268,7 @@ int motion()
         Serial.print(val_2 );
         Serial.print("         ");
         Serial.println(val_3);
+        pdo_flag = pdo_flag - 1;
         return (1);
       }
       bell_detect();
@@ -286,6 +294,7 @@ int motion()
   {
     if (pdo() == 1)
     {
+      pdo_flag = 5;
      return(1); 
     }
     val_1 = analogRead(pir_1);
