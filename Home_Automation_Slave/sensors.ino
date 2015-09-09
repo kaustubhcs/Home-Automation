@@ -1,4 +1,6 @@
-int pdl() //Passage Door Lock
+// Passage Door Lock
+
+int pdl()
 {
   digitalWrite(passage_door_lock_led, LOW);
   analogWrite(passage_door_lock_ldr, 0);
@@ -17,7 +19,9 @@ int pdl() //Passage Door Lock
   }
 }
 
-int pdo() //Passage Door Open
+// Passage Door Open
+
+int pdo() 
 {
   digitalWrite(passage_door_open_led, LOW);
   analogWrite(passage_door_open_ldr, 0);
