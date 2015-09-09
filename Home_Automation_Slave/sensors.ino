@@ -239,7 +239,7 @@ int motion()
   timer = millis();
 
 
-  unsigned long adder = 3600000;
+  unsigned long adder = 10000;
 
   if (pdo() == 1)
   {
@@ -267,6 +267,9 @@ int motion()
 
 
   }
+  
+   adder = 3600000;
+
 
 
   if (gmode == 5) // Demo Mode
