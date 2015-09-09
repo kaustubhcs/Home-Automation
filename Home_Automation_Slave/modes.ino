@@ -109,6 +109,7 @@ void secured_mode()
   }
 }
 
+// For rapid changes in relays
 
 void demo_mode()
 {
