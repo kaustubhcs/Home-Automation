@@ -189,7 +189,7 @@ void mode()
 
 
 
-
+// Fan controller for Arduino Microcontroller
 
 void fan_on(int state)
 {
