@@ -1,3 +1,11 @@
+/*
+
+HOME AUTOMATION SLAVE CODE
+
+*/
+
+
+
 #include <SoftwareSerial.h>
 
 #define relay_0 2
