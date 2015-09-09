@@ -37,7 +37,11 @@ int pdo() //Passage Door Open
 }
 
 
-int ldl() //Living Room Door Lock
+
+
+// Living Room Door Lock
+
+int ldl() 
 {
   digitalWrite(living_room_door_lock_led, LOW);
   analogWrite(living_room_door_lock_ldr, 0);
@@ -77,7 +81,7 @@ int ldo() //Living Room Door Open
 }
 
 
-//Gallery Door Open
+// Gallery Door Open
 
 int gdo() 
 {
