@@ -11,7 +11,7 @@ void relay_test()
   }
 }
 
-
+// All switch off test !
 void off()
 {
   for (int i=0;i<11;i++)
