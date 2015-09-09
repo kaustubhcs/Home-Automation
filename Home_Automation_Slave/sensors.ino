@@ -321,6 +321,7 @@ int motion()
 
 void bell_detect ()
 {
+  // For debugging reasons
   get_info();
 
   //  if (commands[3] == 49)
