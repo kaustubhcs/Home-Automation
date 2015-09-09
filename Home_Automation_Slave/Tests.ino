@@ -143,6 +143,9 @@ void comm_test()
   }
 }
 
+
+// Passive Infra Red Sensor Test
+
 void pir_test()
 {
   Serial.println("PIR Test Running");
