@@ -30,7 +30,7 @@ void sensor_test ()
    digitalWrite(gallery_door_open_led,LOW);
    digitalWrite(buzzer,HIGH);
    */
-  Serial.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+  Serial.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
 
   digitalWrite(passage_door_bell_led,LOW);
